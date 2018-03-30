@@ -3,7 +3,7 @@ var app = express.Router();
 
 
 app.get('/*', (req, res, next) => {
-  res.render('index')
+  res.render('index', { title: 'YKN' })
 });
 
 

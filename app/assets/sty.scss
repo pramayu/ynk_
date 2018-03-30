@@ -2,5 +2,76 @@ body {
   padding: 0;
   margin:0;
   font-family: 'Roboto', Helvetica, Arial, sans-serif;
-  background-color: #fafafa;
+  background-color: #FFFFFF;
+}
+
+@media(min-width: 768px) {
+  ._custom-navbar {
+    background-color: #FFFFFF !important;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    ._custom-logo {
+      font-family: 'Avenir Next LT Pro Bold';
+      font-size: 18px;
+      letter-spacing: 2px;
+      color: #757575;
+    }
+    ._right_login {
+      ._custom-login {
+        text-decoration: none;
+        color: #757575;
+        font-size: 28px;
+      }
+    }
+  }
+  .get_time {
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 80px;
+    .wide_text {
+      h4 {
+        font-size: 34px;
+        font-family: 'Arvo', Roboto, serif !important;
+        color: #757575;
+        letter-spacing: 3px !important;
+      }
+    }
+    .tme_clock {
+      padding-top: 60px;
+      display: flex;
+      flex: 1;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      ._tme {
+        width: 155px;
+        span {
+          font-size: 85px;
+          font-family: 'Arvo', Roboto, serif !important;
+          color: #757575;
+          letter-spacing: 3px !important;
+        }
+        h4 {
+          @extend span;
+          font-size: 14px;
+          font-family: 'Avenir Next LT Pro Semi', 'Arvo', Roboto, serif !important;
+          margin: 0px;
+        }
+      }
+      .hour, .minute {
+        &:after {
+          content: ":";
+          font-size: 85px;
+          font-family: 'Arvo', Roboto, serif !important;
+          color: #757575;
+          letter-spacing: 3px !important;
+          margin-top: -10px;
+          position: absolute;
+          margin-left: 15px;
+        }
+      }
+    }
+  }
 }
