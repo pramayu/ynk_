@@ -59,6 +59,9 @@ class GetTime extends Component {
               <span> { this.state.seconds }</span>
             </div>
           </div>
+          <div className="get_sta">
+            <a href="#" className="btn log_">SIGN IN</a>
+          </div>
         </div>
       </div>
     )
