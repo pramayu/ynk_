@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Navbar from '../utils/navbar';
 import GetTime from './main/time';
+import ModalLogin from './login/login';
 
 class App extends Component {
   render() {
@@ -8,6 +9,7 @@ class App extends Component {
       <div>
         <Navbar />
         <GetTime />
+        <ModalLogin />
       </div>
     )
   }

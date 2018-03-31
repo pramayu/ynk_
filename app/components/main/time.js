@@ -60,7 +60,7 @@ class GetTime extends Component {
             </div>
           </div>
           <div className="get_sta">
-            <a href="#" className="btn log_">SIGN IN</a>
+            <a href="#" className="btn log_" data-toggle="modal" data-target="#loginModal">SIGN IN</a>
           </div>
         </div>
       </div>

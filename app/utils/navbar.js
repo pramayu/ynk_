@@ -10,7 +10,7 @@ class Navbar extends Component {
       <div className="navbar navbar-light bg-light _custom-navbar">
         <a className="navbar-brand _custom-logo" href="#">YKN</a>
         <div className="navbar-nav ml-right _right_login">
-          <a href="#" className="_custom-login icon ion-ios-barcode-outline"></a>
+          <a className="_custom-login icon ion-ios-barcode-outline" data-toggle="modal" data-target="#loginModal"></a>
         </div>
       </div>
     )
